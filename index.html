@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shop thoughtful everyday objects for slower mornings, calmer spaces, and better rituals.">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta property="og:title" content="Morrow — Objects for everyday living">
+  <meta property="og:description" content="Thoughtful objects for slower mornings and calmer spaces.">
+  <meta property="og:type" content="website">
+  <title>Morrow — Objects for everyday living</title>
+  <link rel="icon" type="image/svg+xml" href="/mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" data-route="/" aria-label="Morrow home"><span class="brand-mark" aria-hidden="true">m</span><span>morrow<span class="brand-dot">.</span></span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/shop" data-route="/shop">Shop</a>
+        <a href="/about" data-route="/about">Our story</a>
+      </nav>
+      <a class="cart-link" href="/cart" data-route="/cart" aria-label="Shopping bag, 0 items"><span class="bag-icon" aria-hidden="true">♧</span><span class="cart-label">Bag</span><span class="cart-count" id="cart-count">0</span></a>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="brand footer-brand" href="/" data-route="/" aria-label="Morrow home"><span class="brand-mark" aria-hidden="true">m</span><span>morrow<span class="brand-dot">.</span></span></a>
+      <p>Made for the everyday, kept for a long time.</p>
+      <span class="footer-meta">© <span id="year"></span> MORROW GOODS</span>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
